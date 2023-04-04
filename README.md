@@ -2,14 +2,16 @@
 将视频转化为字符动画
 Transform video to char animation
 
+## 特性
+- 刷新率同步，支持自定义帧率
+- 播放音乐
 
-## 安装依赖项：
-```
+## 使用方法
+```python
+# 安装依赖项：
 pip install -r 
-```
 
-## 运行：
-```
+# 运行：
 python run.py
 ```
 
