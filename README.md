@@ -3,7 +3,8 @@
 Transform video to char animation
 
 ## 特性
-- 刷新率同步，支持自定义帧率
+- 刷新率同步，支持自定义帧率，画幅
+- 自定义字符集
 - 播放音乐
 
 ## 使用方法
@@ -11,13 +12,10 @@ Transform video to char animation
 # 安装依赖项：
 pip install -r 
 
-# 运行：
-python run.py
+# Windows下可以直接使用批处理文件运行：
+./play.bat
 ```
-
-## 参数：
-- 可以在`run.py`中更改画布大小`frame_size`
-- 字符集`char_set`
 
 ## 效果展示
 ![ctrl](./img/ctrl.png)
+
